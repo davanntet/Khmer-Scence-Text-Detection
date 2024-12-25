@@ -16,7 +16,7 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image", use_container_width=True)
     
     # Select model
-    model_name = st.selectbox("Select Model", ["yolov11n","yolov11n_v2", "yolov9c", "yolov8n", "yolov5x6u", "yolov5su"], key="model_selectbox")
+    model_name = st.selectbox("Select Model", ["yolov11n","yolov11n_v2", "yolov8n", "yolov5su"], key="model_selectbox")
     
     # Detect button
     if st.button("Detect", key="detect_button"):
