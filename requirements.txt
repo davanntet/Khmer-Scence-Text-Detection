@@ -1,2 +1,4 @@
 matplotlib
 ultralytics
+opencv-python
+opencv-python-headless
